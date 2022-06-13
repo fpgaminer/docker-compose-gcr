@@ -2,7 +2,7 @@ name: 'build_images'
 
 on:
   schedule:
-    - cron: "@monthly"
+    - cron: "16 14 1 * *"
 
 jobs:
   docker:
