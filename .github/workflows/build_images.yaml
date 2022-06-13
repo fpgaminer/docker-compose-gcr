@@ -3,6 +3,7 @@ name: 'build_images'
 on:
   schedule:
     - cron: "16 14 1 * *"
+  workflow_dispatch:
 
 jobs:
   docker:
